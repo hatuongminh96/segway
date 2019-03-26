@@ -1,4 +1,6 @@
-###Demo
+### Demo
+
+
 ![Working Project](demo/demo.gif)
 
 ![Color tracking](demo/trackTarget.gif)
@@ -6,7 +8,7 @@
 ![Move target](demo/setTarget.gif)
 
 
-###File list:
+### File list:
 
 | Filename | Description |
 |---|---|
@@ -18,9 +20,9 @@
 | diff_uvs_client.py | Client for Differential. Where it receive instruction to move to target |
 
 
-###Execution instruction
+### Execution instruction
 
-#####Differential drive robot
+##### Differential drive robot
 Use this to move the ball to desired location.
 
 On robot : 
@@ -31,7 +33,7 @@ On PC:
 
 Select ROI (in this case the robot) and press Enter. Doubleclick to move to a target.
 
-####Segway
+#### Segway
 On robot:
 > python3 pendulum_client.py
 
